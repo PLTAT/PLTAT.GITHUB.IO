@@ -1,7 +1,7 @@
 
 /*
 JavaScript
-
+function () { }
 */
 
 // search.js
