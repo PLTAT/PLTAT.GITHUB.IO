@@ -1,0 +1,252 @@
+<!--
+    HyperText Markup Language
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Title
+    </title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/script.js"></script>
+</head>
+-->
+
+<!--
+    index.html
+-->
+
+<!--
+    Go
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Earth Online
+    </title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/search.js"></script>
+</head>
+
+<body>
+
+    <table>
+
+        <caption>
+            <input type="text" id="search_input" placeholder="Search">
+        </caption>
+
+        <thead>
+            <tr>
+                <th>
+                    <button style="color: blue;" onclick="window.open('/','_self')">
+                        Home
+                    </button>
+                </th>
+                <th>
+                    <button onclick="window.open('/download','_self')">
+                        DownLoad
+                    </button>
+                </th>
+                <th>
+                    <button onclick="window.open('/404','_self')">
+                        404
+                    </button>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>
+                    Video
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//www.acfun.cn/search?keyword='+document.getElementById('search_input').value)">
+                        AcFun
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//search.bilibili.com/all?keyword='+document.getElementById('search_input').value)">
+                        BiLiBiLi
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Movie
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//vidhub.tv/vodsearch/-------------.html?wd='+document.getElementById('search_input').value)">
+                        VidHub
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CHE
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//swisscows.com/en/web?query='+document.getElementById('search_input').value)">
+                        SwissCows
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CHN
+                </td>
+                <td>
+                    <button onclick="window.open('//baidu.com/s?w='+document.getElementById('search_input').value)">
+                        BaiDu
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//www.chinaso.com/newssearch/all/allResults?q='+document.getElementById('search_input').value)">
+                        ChinaSo
+                    </button>
+                </td>
+                <td>
+                    <button onclick="window.open('//m.sm.cn/s?q='+document.getElementById('search_input').value)">
+                        SM
+                    </button>
+                </td>
+                <td>
+                    <button onclick="window.open('//so.com/s?q='+document.getElementById('search_input').value)">
+                        So
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//sogou.com/web?query='+document.getElementById('search_input').value)">
+                        SoGou
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//search.sohu.com/?keyword='+document.getElementById('search_input').value)">
+                        SoHu
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CZE
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//search.seznam.cz/?q='+document.getElementById('search_input').value)">
+                        SezNam
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    DEU
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//ecosia.org/search?q='+document.getElementById('search_input').value)">
+                        Ecosia
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    GBR
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//mojeek.com/search?q='+document.getElementById('search_input').value)">
+                        Mojeek
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    KOR
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//search.naver.com/search.naver?query='+document.getElementById('search_input').value)">
+                        Naver
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    RUS
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//yandex.com/search/?text='+document.getElementById('search_input').value)">
+                        YanDex
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    USA
+                </td>
+                <td>
+                    <button onclick="window.open('//bing.com/search?q='+document.getElementById('search_input').value)">
+                        Bing
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//boardreader.com/s/'+document.getElementById('search_input').value+'.html')">
+                        BoardReader
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    TranSlate
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//fanyi.baidu.com/#en/en/'+document.getElementById('search_input').value)">
+                        BaiDu
+                    </button>
+                </td>
+                <td>
+                    <button
+                        onclick="window.open('//youdao.com/result?word='+document.getElementById('search_input').value+'&lang=en')">
+                        YouDao
+                    </button>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
+
+<!--
+    End
+-->

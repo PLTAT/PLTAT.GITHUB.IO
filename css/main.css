@@ -1,0 +1,37 @@
+/*
+Cascading Style Sheets
+
+=
+class=.
+id=#
+*/
+
+/* styles.css */
+
+/*
+Go
+*/
+
+body {
+    background-color: #555555;
+}
+
+caption {
+    border: 1px solid blue;
+}
+
+table {
+    border: 1px solid red;
+}
+
+th {
+    border: 1px solid red;
+}
+
+td {
+    border: 1px solid red;
+}
+
+/*
+End
+*/
