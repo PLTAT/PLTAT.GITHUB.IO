@@ -21,7 +21,7 @@ window.onload = function () {
             search.preventDefault();
             // open window | '_blank' is new tab | '//www.bing.com/search?q=' is link "+ document.getElementById('search_input').value" is add 'search_input' to the end
             // | // is unsure web link | / is file | some web is 'www.webdnsname' not just 'webdnsname' | some web did't have http jump to https so use // is good
-            window.open('//bing.com/search?q=' + document.getElementById('search_input').value, '_blank');
+            window.open('//www.bing.com/search?q=' + document.getElementById('search_input').value, '_blank');
         }
     });
 }
